@@ -16,8 +16,10 @@
 </div>
 
 # 介绍
-本项目是go-aliyun-webdav 的Luci 控制面板。  
-[项目链接](https://github.com/LinkLeong/go-aliyun-webdav)
+本项目是 [go-aliyun-webdav](https://github.com/LinkLeong/go-aliyun-webdav) 的Luci 控制面板。  
+
+由 2021.10.31 收录于 [Lean openwrt](https://github.com/coolsnowwolf/lede) 源码中。
+
 
 ### 如何编译
 假设你的Lean openwrt（最新版本19.07） 在 lede 目录下
@@ -40,6 +42,7 @@ make package/lean/luci-app-go-aliyundrive-webdav/compile V=s #单独编译插件
 # 客户端兼容性
 | 客户端 | 下载 | 上传 | 备注 |
 | :-----| ----: | :----: | :----: |
+| 群辉Cloud Sync | 可用 | 可用 | 单向同步非常稳定 |
 | Rclone | 可用 | 可用 | 推荐，支持各个系统 |
 | Mac原生 | 可用 | 可用 | 适配有问题，不建议使用 | 
 | Windows原生 | 可用 | 有点小问题 | 不建议，适配有点问题，上传报错 |
